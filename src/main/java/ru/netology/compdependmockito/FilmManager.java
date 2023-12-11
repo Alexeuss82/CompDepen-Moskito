@@ -1,10 +1,8 @@
 package ru.netology.compdependmockito;
 
-import java.util.Arrays;
-
 public class FilmManager {
     private Film[] films;
-    private int limit;
+    private final int limit;
 
     // Конструктор без параметров, устанавливающий лимит в 5
     public FilmManager() {

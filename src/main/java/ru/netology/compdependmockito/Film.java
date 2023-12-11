@@ -1,7 +1,7 @@
 package ru.netology.compdependmockito;
 
 public class Film {
-    private String title;
+    private final String title;
 
     public Film(String title) {
         this.title = title;
